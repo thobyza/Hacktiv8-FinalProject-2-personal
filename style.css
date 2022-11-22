@@ -1,0 +1,171 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+
+/* Helpers */
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #234CAD;
+    /* line-height: 1.7; */
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h6 {
+    color: #234CAD;
+    font-weight: 700;
+}
+
+.section-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-title {
+    max-width: 560px;
+    margin: 0 auto 60px auto;
+}
+
+/* --------------- SECTION C --------------- */
+/* About*/
+#about img {
+    width: 80%;
+    border-radius: 40px;
+}
+
+#about p {
+    padding-right: 65px;
+}
+
+.btn-brand,
+.btn-brand:focus {
+  padding: 10px 15px;
+  background-color:#ffff;
+  color: #234CAD;
+  border-color: #234CAD;
+  border-width: 2px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.btn-brand:hover {
+    padding: 10px 15px;
+    background-color: #234CAD;
+    color: #fff;
+    border-color: #234CAD;
+    border-radius: 50px;
+}
+
+/* Pricing */
+.card-pricing {
+    background-color: #F2F6FF;
+    border-radius: 50px;
+}
+
+.card-pricing-2 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #234CAD;
+    border-radius: 50px;
+}
+
+.separator {
+    width: 4rem;
+    height: 3px;
+    border-radius: 1rem;
+    background-color: #234CAD;
+}
+
+.card-pricing .btn-brand {
+    border-color: transparent;
+    width: 210px;
+}
+
+.card-pricing-2 .btn-brand {
+    width: 210px;
+}
+
+/* --------------- SECTION D --------------- */
+/* Newsletter*/
+.newsletter-section {
+    background-color: #F2F6FF;
+    border-radius: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.newsletter-section2 {
+    background-color: #F2F6FF;
+    border-radius: 50px;
+    padding-top: 50px;
+    height: 500px;
+    padding-bottom: 30px;
+}
+.subcribe-form form {
+    max-width: 450px;
+    margin: 15px auto;
+    position: relative;
+}
+
+.subcribe-form input {
+    width: 100%;
+    height: 48px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 0 30px;
+    
+}
+
+#submit-button {
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    font-size: 11px;
+    color: #fff;
+    cursor: pointer;
+    width: 40px;
+}
+
+#submit-button:hover{
+    background: #2C3B5A;
+    color: #fff;
+}
+
+#submit-button i {
+    position: absolute;
+    top: -12%;
+    left: 4px;
+}
+
+.color-bg{ 
+    background: #234CAD;
+}
+
+/* Footer */
+.footer-main {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#footer ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+}
+
+#footer a {
+    color: #234CAD;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    color: #2C3B5A;
+}
+
+#footer li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
